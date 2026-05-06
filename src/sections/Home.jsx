@@ -3,6 +3,8 @@ import ParticalBackground from "../components/ParticalsBackground";
 import { motion } from "framer-motion";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import avatar from "../assets/avator.png";
+import resume from "../assets/ketan_resume.pdf";
+
 
 const socials = [
   {
@@ -133,7 +135,7 @@ const Home = () => {
             </a>
 
             <a
-              href="/ketan_resume.pdf"
+              href={resume}
               download
               className="px-6 py-3 rounded-full bg-white text-black hover:bg-gray-200 hover:scale-105 transition"
             >
